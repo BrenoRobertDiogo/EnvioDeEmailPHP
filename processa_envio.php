@@ -54,7 +54,7 @@ try {
     $mail->setFrom($mensagem->__get('para'), 'TITULO');
     $mail->addAddress($mensagem->__get('para'), 'TITULO');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
-    // $mail->addReplyTo('brenorobert@ucl.br', 'Information');
+    // $mail->addReplyTo('', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
